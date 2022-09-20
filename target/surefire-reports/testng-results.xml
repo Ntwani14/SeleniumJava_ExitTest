@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="57" total="60" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-20T20:21:43 CAT" name="Suite" finished-at="2022-09-20T20:27:02 CAT" duration-ms="318617">
+    <groups>
+      <group name="smoke">
+        <method signature="TestCase13_SelectAddress.SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@235f4c10]" name="SelectAddress" class="tests.TestCase13_SelectAddress"/>
+        <method signature="TestCase15_editAddress.editAddress()[pri:15, instance:tests.TestCase15_editAddress@743cb8e0]" name="editAddress" class="tests.TestCase15_editAddress"/>
+        <method signature="TestCase16_DeleteAddress.DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@4ebea12c]" name="DeleteAddress" class="tests.TestCase16_DeleteAddress"/>
+      </group> <!-- smoke -->
+      <group name="BaseClss">
+        <method signature="TestCase13_SelectAddress.SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@235f4c10]" name="SelectAddress" class="tests.TestCase13_SelectAddress"/>
+        <method signature="TestCase15_editAddress.editAddress()[pri:15, instance:tests.TestCase15_editAddress@743cb8e0]" name="editAddress" class="tests.TestCase15_editAddress"/>
+        <method signature="TestCase16_DeleteAddress.DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@4ebea12c]" name="DeleteAddress" class="tests.TestCase16_DeleteAddress"/>
+      </group> <!-- BaseClss -->
+    </groups>
+    <test started-at="2022-09-20T20:21:43 CAT" name="Test" finished-at="2022-09-20T20:27:02 CAT" duration-ms="318617">
+      <class name="tests.TestCase15_editAddress">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase15_editAddress@743cb8e0]" started-at="2022-09-20T20:23:11 CAT" name="Setup" finished-at="2022-09-20T20:23:34 CAT" duration-ms="22498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="editAddress()[pri:15, instance:tests.TestCase15_editAddress@743cb8e0]" started-at="2022-09-20T20:23:34 CAT" name="editAddress" finished-at="2022-09-20T20:27:00 CAT" duration-ms="206356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase15_editAddress@743cb8e0]" started-at="2022-09-20T20:27:00 CAT" name="tearDown" finished-at="2022-09-20T20:27:02 CAT" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase15_editAddress -->
+      <class name="tests.TestCase12_Sell">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:tests.TestCase12_Sell@569bf9eb]" started-at="2022-09-20T20:21:43 CAT" name="reportSetup" finished-at="2022-09-20T20:21:43 CAT" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:tests.TestCase12_Sell@569bf9eb]" started-at="2022-09-20T20:27:02 CAT" name="reportTearDown" finished-at="2022-09-20T20:27:03 CAT" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+      </class> <!-- tests.TestCase12_Sell -->
+      <class name="tests.TestCase16_DeleteAddress">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase16_DeleteAddress@4ebea12c]" started-at="2022-09-20T20:21:43 CAT" name="Setup" finished-at="2022-09-20T20:22:01 CAT" duration-ms="18342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@4ebea12c]" started-at="2022-09-20T20:22:01 CAT" name="DeleteAddress" finished-at="2022-09-20T20:22:31 CAT" duration-ms="29149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase16_DeleteAddress@4ebea12c]" started-at="2022-09-20T20:22:31 CAT" name="tearDown" finished-at="2022-09-20T20:22:32 CAT" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase16_DeleteAddress -->
+      <class name="tests.TestCase13_SelectAddress">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase13_SelectAddress@235f4c10]" started-at="2022-09-20T20:22:32 CAT" name="Setup" finished-at="2022-09-20T20:22:50 CAT" duration-ms="17638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@235f4c10]" started-at="2022-09-20T20:22:50 CAT" name="SelectAddress" finished-at="2022-09-20T20:23:09 CAT" duration-ms="19614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase13_SelectAddress@235f4c10]" started-at="2022-09-20T20:23:09 CAT" name="tearDown" finished-at="2022-09-20T20:23:11 CAT" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase13_SelectAddress -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

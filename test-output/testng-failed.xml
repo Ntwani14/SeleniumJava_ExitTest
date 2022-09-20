@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="BaseClss"/>
+        <include name="smoke"/>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.TestCase13_SelectAddress">
+        <methods>
+          <include name="Setup"/>
+          <include name="SelectAddress"/>
+          <include name="tearDown"/>
+          <include name="reportTearDown"/>
+          <include name="reportSetup"/>
+        </methods>
+      </class> <!-- tests.TestCase13_SelectAddress -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
