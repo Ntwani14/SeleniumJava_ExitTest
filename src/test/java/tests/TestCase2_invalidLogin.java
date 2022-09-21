@@ -16,7 +16,7 @@ import PageFactory.invalidLoginPage;
 
 public class TestCase2_invalidLogin extends BaseClass{
 	
-	@Test(groups = {"regression"} ,priority = 2)
+	@Test(groups = {"smoke"} ,priority = 2)
 	public void loginWithInvalidPassword() throws IOException
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));

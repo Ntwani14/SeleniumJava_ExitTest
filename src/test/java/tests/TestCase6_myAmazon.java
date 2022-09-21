@@ -3,14 +3,12 @@ package tests;
 import java.io.IOException;
 import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import Config.PropertiesFile;
 import PageFactory.myAmazonPage;
 
 public class TestCase6_myAmazon extends BaseClass{

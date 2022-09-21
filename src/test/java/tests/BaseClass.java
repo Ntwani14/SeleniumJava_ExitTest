@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,10 +13,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeGroups;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -126,17 +122,7 @@ public class BaseClass{
 		driver.get(PropertiesFile.getUrl());
 	}
 	
-//	public void baseTestLogin() throws IOException
-//	{
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-//		
-//		driver.findElement(By.partialLinkText("Hello, sign in")).click();
-//		driver.findElement(By.xpath("//input[@name='email']")).sendKeys(PropertiesFile.getEmail());
-//		driver.findElement(By.id("continue")).click();
-//		
-//		driver.findElement(By.id("ap_password")).sendKeys(PropertiesFile.getPassword());
-//		driver.findElement(By.xpath("//input[@id='signInSubmit']")).click();
-//	}
+
 	
 	@AfterClass
 	public void tearDown()

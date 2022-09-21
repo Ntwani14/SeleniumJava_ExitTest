@@ -12,114 +12,13 @@
     <classes>
       <class name="tests.TestCase13_SelectAddress">
         <methods>
-          <include name="SelectAddress"/>
           <include name="Setup"/>
           <include name="tearDown"/>
+          <include name="SelectAddress"/>
           <include name="reportTearDown"/>
           <include name="reportSetup"/>
         </methods>
       </class> <!-- tests.TestCase13_SelectAddress -->
-      <class name="tests.TestCase14_addAddress">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="AddAddress"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase14_addAddress -->
-      <class name="tests.TestCase1_login">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase1_login -->
-      <class name="tests.TestCase3_searchButton">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase3_searchButton -->
-      <class name="tests.BaseClass">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.BaseClass -->
-      <class name="tests.TestCase10_Registry">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase10_Registry -->
-      <class name="tests.TestCase5_TodaysDeals">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase5_TodaysDeals -->
-      <class name="tests.TestCase9_CustomerServices">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase9_CustomerServices -->
-      <class name="tests.TestCase15_editAddress">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-          <include name="editAddress"/>
-        </methods>
-      </class> <!-- tests.TestCase15_editAddress -->
-      <class name="tests.TestCase16_DeleteAddress">
-        <methods>
-          <include name="DeleteAddress"/>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase16_DeleteAddress -->
-      <class name="tests.TestCase4_addToCart">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase4_addToCart -->
-      <class name="tests.TestCase11_BrowserHistory">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="baseTestLogin"/>
-          <include name="reportTearDown"/>
-          <include name="reportSetup"/>
-        </methods>
-      </class> <!-- tests.TestCase11_BrowserHistory -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

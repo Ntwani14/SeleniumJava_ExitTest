@@ -2,10 +2,8 @@ package tests;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
@@ -15,12 +13,11 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
-import Config.PropertiesFile;
 import PageFactory.removeFromCartPage;
 
 public class TestCase17_RemoveFromCart extends BaseClass{
 	
-	@Test(groups = {"regression"},priority = 17)
+	@Test(groups = {"smoke"},priority = 17)
 	public void RemoveFromCart() throws IOException, InterruptedException
 	{
 		TestCase1_login.loginTest();

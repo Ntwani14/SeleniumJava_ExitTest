@@ -1,73 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="57" total="60" passed="3" failed="0" skipped="0">
+<testng-results ignored="56" total="60" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-20T20:21:43 CAT" name="Suite" finished-at="2022-09-20T20:27:02 CAT" duration-ms="318617">
+  <suite started-at="2022-09-21T04:32:55 CAT" name="Suite" finished-at="2022-09-21T04:34:20 CAT" duration-ms="85048">
     <groups>
       <group name="smoke">
-        <method signature="TestCase13_SelectAddress.SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@235f4c10]" name="SelectAddress" class="tests.TestCase13_SelectAddress"/>
-        <method signature="TestCase15_editAddress.editAddress()[pri:15, instance:tests.TestCase15_editAddress@743cb8e0]" name="editAddress" class="tests.TestCase15_editAddress"/>
-        <method signature="TestCase16_DeleteAddress.DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@4ebea12c]" name="DeleteAddress" class="tests.TestCase16_DeleteAddress"/>
+        <method signature="TestCase2_invalidLogin.loginWithInvalidPassword()[pri:2, instance:tests.TestCase2_invalidLogin@649725e3]" name="loginWithInvalidPassword" class="tests.TestCase2_invalidLogin"/>
+        <method signature="TestCase15_editAddress.editAddress()[pri:15, instance:tests.TestCase15_editAddress@77192705]" name="editAddress" class="tests.TestCase15_editAddress"/>
+        <method signature="TestCase17_RemoveFromCart.RemoveFromCart()[pri:17, instance:tests.TestCase17_RemoveFromCart@4c168660]" name="RemoveFromCart" class="tests.TestCase17_RemoveFromCart"/>
+        <method signature="TestCase19_invalidEmail.LoginWithInvalidEmail()[pri:19, instance:tests.TestCase19_invalidEmail@fd0e5b6]" name="LoginWithInvalidEmail" class="tests.TestCase19_invalidEmail"/>
       </group> <!-- smoke -->
       <group name="BaseClss">
-        <method signature="TestCase13_SelectAddress.SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@235f4c10]" name="SelectAddress" class="tests.TestCase13_SelectAddress"/>
-        <method signature="TestCase15_editAddress.editAddress()[pri:15, instance:tests.TestCase15_editAddress@743cb8e0]" name="editAddress" class="tests.TestCase15_editAddress"/>
-        <method signature="TestCase16_DeleteAddress.DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@4ebea12c]" name="DeleteAddress" class="tests.TestCase16_DeleteAddress"/>
+        <method signature="TestCase2_invalidLogin.loginWithInvalidPassword()[pri:2, instance:tests.TestCase2_invalidLogin@649725e3]" name="loginWithInvalidPassword" class="tests.TestCase2_invalidLogin"/>
+        <method signature="TestCase15_editAddress.editAddress()[pri:15, instance:tests.TestCase15_editAddress@77192705]" name="editAddress" class="tests.TestCase15_editAddress"/>
+        <method signature="TestCase17_RemoveFromCart.RemoveFromCart()[pri:17, instance:tests.TestCase17_RemoveFromCart@4c168660]" name="RemoveFromCart" class="tests.TestCase17_RemoveFromCart"/>
+        <method signature="TestCase19_invalidEmail.LoginWithInvalidEmail()[pri:19, instance:tests.TestCase19_invalidEmail@fd0e5b6]" name="LoginWithInvalidEmail" class="tests.TestCase19_invalidEmail"/>
       </group> <!-- BaseClss -->
     </groups>
-    <test started-at="2022-09-20T20:21:43 CAT" name="Test" finished-at="2022-09-20T20:27:02 CAT" duration-ms="318617">
+    <test started-at="2022-09-21T04:32:55 CAT" name="Test" finished-at="2022-09-21T04:34:20 CAT" duration-ms="85048">
       <class name="tests.TestCase15_editAddress">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase15_editAddress@743cb8e0]" started-at="2022-09-20T20:23:11 CAT" name="Setup" finished-at="2022-09-20T20:23:34 CAT" duration-ms="22498" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase15_editAddress@77192705]" started-at="2022-09-21T04:33:53 CAT" name="Setup" finished-at="2022-09-21T04:34:01 CAT" duration-ms="7777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="editAddress()[pri:15, instance:tests.TestCase15_editAddress@743cb8e0]" started-at="2022-09-20T20:23:34 CAT" name="editAddress" finished-at="2022-09-20T20:27:00 CAT" duration-ms="206356" status="PASS">
+        <test-method signature="editAddress()[pri:15, instance:tests.TestCase15_editAddress@77192705]" started-at="2022-09-21T04:34:01 CAT" name="editAddress" finished-at="2022-09-21T04:34:18 CAT" duration-ms="17363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase15_editAddress@743cb8e0]" started-at="2022-09-20T20:27:00 CAT" name="tearDown" finished-at="2022-09-20T20:27:02 CAT" duration-ms="1720" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase15_editAddress@77192705]" started-at="2022-09-21T04:34:18 CAT" name="tearDown" finished-at="2022-09-21T04:34:20 CAT" duration-ms="1327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TestCase15_editAddress -->
       <class name="tests.TestCase12_Sell">
-        <test-method is-config="true" signature="reportSetup()[pri:0, instance:tests.TestCase12_Sell@569bf9eb]" started-at="2022-09-20T20:21:43 CAT" name="reportSetup" finished-at="2022-09-20T20:21:43 CAT" duration-ms="445" status="PASS">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:tests.TestCase12_Sell@592e843a]" started-at="2022-09-21T04:32:54 CAT" name="reportSetup" finished-at="2022-09-21T04:32:55 CAT" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetup -->
-        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:tests.TestCase12_Sell@569bf9eb]" started-at="2022-09-20T20:27:02 CAT" name="reportTearDown" finished-at="2022-09-20T20:27:03 CAT" duration-ms="975" status="PASS">
+        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:tests.TestCase12_Sell@592e843a]" started-at="2022-09-21T04:34:20 CAT" name="reportTearDown" finished-at="2022-09-21T04:34:20 CAT" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTearDown -->
       </class> <!-- tests.TestCase12_Sell -->
-      <class name="tests.TestCase16_DeleteAddress">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase16_DeleteAddress@4ebea12c]" started-at="2022-09-20T20:21:43 CAT" name="Setup" finished-at="2022-09-20T20:22:01 CAT" duration-ms="18342" status="PASS">
+      <class name="tests.TestCase2_invalidLogin">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase2_invalidLogin@649725e3]" started-at="2022-09-21T04:32:55 CAT" name="Setup" finished-at="2022-09-21T04:33:06 CAT" duration-ms="11520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@4ebea12c]" started-at="2022-09-20T20:22:01 CAT" name="DeleteAddress" finished-at="2022-09-20T20:22:31 CAT" duration-ms="29149" status="PASS">
+        <test-method signature="loginWithInvalidPassword()[pri:2, instance:tests.TestCase2_invalidLogin@649725e3]" started-at="2022-09-21T04:33:06 CAT" name="loginWithInvalidPassword" finished-at="2022-09-21T04:33:14 CAT" duration-ms="8179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeleteAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase16_DeleteAddress@4ebea12c]" started-at="2022-09-20T20:22:31 CAT" name="tearDown" finished-at="2022-09-20T20:22:32 CAT" duration-ms="1594" status="PASS">
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase2_invalidLogin@649725e3]" started-at="2022-09-21T04:33:14 CAT" name="tearDown" finished-at="2022-09-21T04:33:16 CAT" duration-ms="1303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.TestCase16_DeleteAddress -->
-      <class name="tests.TestCase13_SelectAddress">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase13_SelectAddress@235f4c10]" started-at="2022-09-20T20:22:32 CAT" name="Setup" finished-at="2022-09-20T20:22:50 CAT" duration-ms="17638" status="PASS">
+      </class> <!-- tests.TestCase2_invalidLogin -->
+      <class name="tests.TestCase17_RemoveFromCart">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase17_RemoveFromCart@4c168660]" started-at="2022-09-21T04:33:16 CAT" name="Setup" finished-at="2022-09-21T04:33:24 CAT" duration-ms="8236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@235f4c10]" started-at="2022-09-20T20:22:50 CAT" name="SelectAddress" finished-at="2022-09-20T20:23:09 CAT" duration-ms="19614" status="PASS">
+        <test-method signature="RemoveFromCart()[pri:17, instance:tests.TestCase17_RemoveFromCart@4c168660]" started-at="2022-09-21T04:33:24 CAT" name="RemoveFromCart" finished-at="2022-09-21T04:33:39 CAT" duration-ms="14868" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase13_SelectAddress@235f4c10]" started-at="2022-09-20T20:23:09 CAT" name="tearDown" finished-at="2022-09-20T20:23:11 CAT" duration-ms="1606" status="PASS">
+        </test-method> <!-- RemoveFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase17_RemoveFromCart@4c168660]" started-at="2022-09-21T04:33:39 CAT" name="tearDown" finished-at="2022-09-21T04:33:40 CAT" duration-ms="1480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.TestCase13_SelectAddress -->
+      </class> <!-- tests.TestCase17_RemoveFromCart -->
+      <class name="tests.TestCase19_invalidEmail">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase19_invalidEmail@fd0e5b6]" started-at="2022-09-21T04:33:40 CAT" name="Setup" finished-at="2022-09-21T04:33:48 CAT" duration-ms="7800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithInvalidEmail()[pri:19, instance:tests.TestCase19_invalidEmail@fd0e5b6]" started-at="2022-09-21T04:33:48 CAT" name="LoginWithInvalidEmail" finished-at="2022-09-21T04:33:52 CAT" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase19_invalidEmail@fd0e5b6]" started-at="2022-09-21T04:33:52 CAT" name="tearDown" finished-at="2022-09-21T04:33:53 CAT" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase19_invalidEmail -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

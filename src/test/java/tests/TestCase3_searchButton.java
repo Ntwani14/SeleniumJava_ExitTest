@@ -13,7 +13,6 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import Config.PropertiesFile;
 import PageFactory.searchButtonPage;
 
 public class TestCase3_searchButton extends BaseClass{

@@ -1,10 +1,8 @@
 package tests;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
@@ -12,7 +10,6 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import Config.PropertiesFile;
 import PageFactory.signoutPage;
 
 public class TestCase20_Signout  extends BaseClass{

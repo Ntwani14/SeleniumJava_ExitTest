@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TestCase13_SelectAddress">
+      <class name="tests.TestCase10_Registry">
         <methods>
           <include name="Setup"/>
           <include name="tearDown"/>
-          <include name="SelectAddress"/>
           <include name="reportTearDown"/>
           <include name="reportSetup"/>
+          <include name="Registry"/>
         </methods>
-      </class> <!-- tests.TestCase13_SelectAddress -->
+      </class> <!-- tests.TestCase10_Registry -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

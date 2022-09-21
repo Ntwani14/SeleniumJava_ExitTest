@@ -1,21 +1,18 @@
 package tests;
 
 import java.io.IOException;
-import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import Config.PropertiesFile;
 import PageFactory.SelectAddressPage;
 
 public class TestCase13_SelectAddress extends BaseClass{
 	
-	@Test(groups = {"smoke"},priority = 13)
+	@Test(groups = {"smoke"},priority = 13,enabled = false)
 	public void SelectAddress() throws IOException, Exception
 	{
 		

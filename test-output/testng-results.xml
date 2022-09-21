@@ -1,146 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="57" total="60" passed="2" failed="1" skipped="0">
+<testng-results ignored="56" total="60" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-20T20:13:12 CAT" name="Suite" finished-at="2022-09-20T20:15:16 CAT" duration-ms="124107">
+  <suite started-at="2022-09-21T04:27:14 CAT" name="Suite" finished-at="2022-09-21T04:28:54 CAT" duration-ms="99651">
     <groups>
       <group name="smoke">
-        <method signature="TestCase13_SelectAddress.SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@10c8f62]" name="SelectAddress" class="tests.TestCase13_SelectAddress"/>
-        <method signature="TestCase14_addAddress.AddAddress()[pri:14, instance:tests.TestCase14_addAddress@5c48c0c0]" name="AddAddress" class="tests.TestCase14_addAddress"/>
-        <method signature="TestCase16_DeleteAddress.DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@303e3593]" name="DeleteAddress" class="tests.TestCase16_DeleteAddress"/>
+        <method signature="TestCase2_invalidLogin.loginWithInvalidPassword()[pri:2, instance:tests.TestCase2_invalidLogin@439a8f59]" name="loginWithInvalidPassword" class="tests.TestCase2_invalidLogin"/>
+        <method signature="TestCase15_editAddress.editAddress()[pri:15, instance:tests.TestCase15_editAddress@6c6357f9]" name="editAddress" class="tests.TestCase15_editAddress"/>
+        <method signature="TestCase17_RemoveFromCart.RemoveFromCart()[pri:17, instance:tests.TestCase17_RemoveFromCart@31024624]" name="RemoveFromCart" class="tests.TestCase17_RemoveFromCart"/>
+        <method signature="TestCase19_invalidEmail.LoginWithInvalidEmail()[pri:19, instance:tests.TestCase19_invalidEmail@32cb636e]" name="LoginWithInvalidEmail" class="tests.TestCase19_invalidEmail"/>
       </group> <!-- smoke -->
       <group name="BaseClss">
-        <method signature="TestCase13_SelectAddress.SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@10c8f62]" name="SelectAddress" class="tests.TestCase13_SelectAddress"/>
-        <method signature="TestCase14_addAddress.AddAddress()[pri:14, instance:tests.TestCase14_addAddress@5c48c0c0]" name="AddAddress" class="tests.TestCase14_addAddress"/>
-        <method signature="TestCase16_DeleteAddress.DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@303e3593]" name="DeleteAddress" class="tests.TestCase16_DeleteAddress"/>
+        <method signature="TestCase2_invalidLogin.loginWithInvalidPassword()[pri:2, instance:tests.TestCase2_invalidLogin@439a8f59]" name="loginWithInvalidPassword" class="tests.TestCase2_invalidLogin"/>
+        <method signature="TestCase15_editAddress.editAddress()[pri:15, instance:tests.TestCase15_editAddress@6c6357f9]" name="editAddress" class="tests.TestCase15_editAddress"/>
+        <method signature="TestCase17_RemoveFromCart.RemoveFromCart()[pri:17, instance:tests.TestCase17_RemoveFromCart@31024624]" name="RemoveFromCart" class="tests.TestCase17_RemoveFromCart"/>
+        <method signature="TestCase19_invalidEmail.LoginWithInvalidEmail()[pri:19, instance:tests.TestCase19_invalidEmail@32cb636e]" name="LoginWithInvalidEmail" class="tests.TestCase19_invalidEmail"/>
       </group> <!-- BaseClss -->
     </groups>
-    <test started-at="2022-09-20T20:13:12 CAT" name="Test" finished-at="2022-09-20T20:15:16 CAT" duration-ms="124107">
+    <test started-at="2022-09-21T04:27:14 CAT" name="Test" finished-at="2022-09-21T04:28:54 CAT" duration-ms="99651">
+      <class name="tests.TestCase15_editAddress">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase15_editAddress@6c6357f9]" started-at="2022-09-21T04:28:13 CAT" name="Setup" finished-at="2022-09-21T04:28:21 CAT" duration-ms="7880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="editAddress()[pri:15, instance:tests.TestCase15_editAddress@6c6357f9]" started-at="2022-09-21T04:28:21 CAT" name="editAddress" finished-at="2022-09-21T04:28:52 CAT" duration-ms="31028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase15_editAddress@6c6357f9]" started-at="2022-09-21T04:28:52 CAT" name="tearDown" finished-at="2022-09-21T04:28:54 CAT" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase15_editAddress -->
       <class name="tests.TestCase12_Sell">
-        <test-method is-config="true" signature="reportSetup()[pri:0, instance:tests.TestCase12_Sell@46e8a539]" started-at="2022-09-20T20:13:11 CAT" name="reportSetup" finished-at="2022-09-20T20:13:12 CAT" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:tests.TestCase12_Sell@f9879ac]" started-at="2022-09-21T04:27:14 CAT" name="reportSetup" finished-at="2022-09-21T04:27:14 CAT" duration-ms="330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetup -->
-        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:tests.TestCase12_Sell@46e8a539]" started-at="2022-09-20T20:15:16 CAT" name="reportTearDown" finished-at="2022-09-20T20:15:16 CAT" duration-ms="551" status="PASS">
+        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:tests.TestCase12_Sell@f9879ac]" started-at="2022-09-21T04:28:54 CAT" name="reportTearDown" finished-at="2022-09-21T04:28:54 CAT" duration-ms="535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTearDown -->
       </class> <!-- tests.TestCase12_Sell -->
-      <class name="tests.TestCase14_addAddress">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase14_addAddress@5c48c0c0]" started-at="2022-09-20T20:13:49 CAT" name="Setup" finished-at="2022-09-20T20:14:04 CAT" duration-ms="15065" status="PASS">
+      <class name="tests.TestCase2_invalidLogin">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase2_invalidLogin@439a8f59]" started-at="2022-09-21T04:27:14 CAT" name="Setup" finished-at="2022-09-21T04:27:26 CAT" duration-ms="11674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="AddAddress()[pri:14, instance:tests.TestCase14_addAddress@5c48c0c0]" started-at="2022-09-20T20:14:04 CAT" name="AddAddress" finished-at="2022-09-20T20:14:41 CAT" duration-ms="37087" status="PASS">
+        <test-method signature="loginWithInvalidPassword()[pri:2, instance:tests.TestCase2_invalidLogin@439a8f59]" started-at="2022-09-21T04:27:26 CAT" name="loginWithInvalidPassword" finished-at="2022-09-21T04:27:35 CAT" duration-ms="9396" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase14_addAddress@5c48c0c0]" started-at="2022-09-20T20:14:41 CAT" name="tearDown" finished-at="2022-09-20T20:14:43 CAT" duration-ms="1378" status="PASS">
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase2_invalidLogin@439a8f59]" started-at="2022-09-21T04:27:35 CAT" name="tearDown" finished-at="2022-09-21T04:27:37 CAT" duration-ms="1443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.TestCase14_addAddress -->
-      <class name="tests.TestCase16_DeleteAddress">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase16_DeleteAddress@303e3593]" started-at="2022-09-20T20:13:12 CAT" name="Setup" finished-at="2022-09-20T20:13:29 CAT" duration-ms="17552" status="PASS">
+      </class> <!-- tests.TestCase2_invalidLogin -->
+      <class name="tests.TestCase17_RemoveFromCart">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase17_RemoveFromCart@31024624]" started-at="2022-09-21T04:27:37 CAT" name="Setup" finished-at="2022-09-21T04:27:44 CAT" duration-ms="7820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="DeleteAddress()[pri:16, instance:tests.TestCase16_DeleteAddress@303e3593]" started-at="2022-09-20T20:13:29 CAT" name="DeleteAddress" finished-at="2022-09-20T20:13:48 CAT" duration-ms="18337" status="PASS">
+        <test-method signature="RemoveFromCart()[pri:17, instance:tests.TestCase17_RemoveFromCart@31024624]" started-at="2022-09-21T04:27:44 CAT" name="RemoveFromCart" finished-at="2022-09-21T04:27:57 CAT" duration-ms="13012" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeleteAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase16_DeleteAddress@303e3593]" started-at="2022-09-20T20:13:48 CAT" name="tearDown" finished-at="2022-09-20T20:13:49 CAT" duration-ms="1378" status="PASS">
+        </test-method> <!-- RemoveFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase17_RemoveFromCart@31024624]" started-at="2022-09-21T04:27:57 CAT" name="tearDown" finished-at="2022-09-21T04:27:59 CAT" duration-ms="1547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.TestCase16_DeleteAddress -->
-      <class name="tests.TestCase13_SelectAddress">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase13_SelectAddress@10c8f62]" started-at="2022-09-20T20:14:43 CAT" name="Setup" finished-at="2022-09-20T20:14:56 CAT" duration-ms="13507" status="PASS">
+      </class> <!-- tests.TestCase17_RemoveFromCart -->
+      <class name="tests.TestCase19_invalidEmail">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.TestCase19_invalidEmail@32cb636e]" started-at="2022-09-21T04:27:59 CAT" name="Setup" finished-at="2022-09-21T04:28:06 CAT" duration-ms="7474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="SelectAddress()[pri:13, instance:tests.TestCase13_SelectAddress@10c8f62]" started-at="2022-09-20T20:14:56 CAT" name="SelectAddress" finished-at="2022-09-20T20:15:14 CAT" duration-ms="18310" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='RB5ZQ3U5Y6234WPGFLCEG12WN95JGIHOIA2TIOHIGJ59NWLPXTQ2EQA2OXMN5Y3O:3:lpkklwhspklq']"}
-  (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'ZA-5CD1514QVX', ip: '192.168.196.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [388aa05f214ba803b0478ae33984a9ff, findElement {using=name, value=RB5ZQ3U5Y6234WPGFLCEG12WN95JGIHOIA2TIOHIGJ59NWLPXTQ2EQA2OXMN5Y3O:3:lpkklwhspklq}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\NTWANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58321/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 388aa05f214ba803b0478ae33984a9ff]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='RB5ZQ3U5Y6234WPGFLCEG12WN95JGIHOIA2TIOHIGJ59NWLPXTQ2EQA2OXMN5Y3O:3:lpkklwhspklq']"}
-  (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'ZA-5CD1514QVX', ip: '192.168.196.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [388aa05f214ba803b0478ae33984a9ff, findElement {using=name, value=RB5ZQ3U5Y6234WPGFLCEG12WN95JGIHOIA2TIOHIGJ59NWLPXTQ2EQA2OXMN5Y3O:3:lpkklwhspklq}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\NTWANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58321/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 388aa05f214ba803b0478ae33984a9ff
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy33.click(Unknown Source)
-at PageFactory.SelectAddressPage.buttonClick(SelectAddressPage.java:51)
-at tests.TestCase13_SelectAddress.SelectAddress(TestCase13_SelectAddress.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="LoginWithInvalidEmail()[pri:19, instance:tests.TestCase19_invalidEmail@32cb636e]" started-at="2022-09-21T04:28:06 CAT" name="LoginWithInvalidEmail" finished-at="2022-09-21T04:28:10 CAT" duration-ms="3755" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase13_SelectAddress@10c8f62]" started-at="2022-09-20T20:15:14 CAT" name="tearDown" finished-at="2022-09-20T20:15:16 CAT" duration-ms="1384" status="PASS">
+        </test-method> <!-- LoginWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase19_invalidEmail@32cb636e]" started-at="2022-09-21T04:28:10 CAT" name="tearDown" finished-at="2022-09-21T04:28:13 CAT" duration-ms="3167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.TestCase13_SelectAddress -->
+      </class> <!-- tests.TestCase19_invalidEmail -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

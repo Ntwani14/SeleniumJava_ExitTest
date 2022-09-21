@@ -10,15 +10,15 @@
       </run>
     </groups>
     <classes>
-      <class name="tests.TestCase13_SelectAddress">
+      <class name="tests.TestCase16_DeleteAddress">
         <methods>
-          <include name="Setup"/>
-          <include name="SelectAddress"/>
+          <include name="DeleteAddress"/>
           <include name="tearDown"/>
+          <include name="Setup"/>
           <include name="reportTearDown"/>
           <include name="reportSetup"/>
         </methods>
-      </class> <!-- tests.TestCase13_SelectAddress -->
+      </class> <!-- tests.TestCase16_DeleteAddress -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

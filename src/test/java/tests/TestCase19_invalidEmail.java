@@ -15,7 +15,7 @@ import PageFactory.invalidEmailPage;
 
 public class TestCase19_invalidEmail extends BaseClass{
 	
-	@Test(groups = {"regression"},priority = 19)
+	@Test(groups = {"smoke"},priority = 19)
 	public void LoginWithInvalidEmail() throws IOException
 	{
 		
